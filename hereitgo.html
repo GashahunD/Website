@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Gashahun
+        </title>
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/Div-review.css">
+        <link rel="stylesheet"href="styles/header.css">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <style>
+            p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family:  roboto, arial;
+    font-size: 14px;
+}
+     .header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.hamburger-menu{
+   height: 24px;
+   margin-right: 24px;
+   margin-left: 24px;
+
+}
+.youtube-logo{
+    height: 20px;
+}
+.middle-section{
+
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    align-items: center;
+   
+  
+    }
+    .search-bar{
+             padding-left: 10px;
+            flex: 1;
+            height: 36px;
+            font-size: 16px;
+            border-radius: 2px;
+            border-width: 1px;
+            border-style: solid;
+            border-color:rgb(192, 192, 192);
+            box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+            width: 0;
+        }
+           
+     .search-bar::placeholder{
+     font-family: roboto, arial;
+     font-size: 16px;
+     }
+   
+   .search-button{
+    height: 39px;
+    width: 65px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(192, 192, 192);
+    border-radius: 2px;
+    background-color: rgb(238, 235, 235);
+    margin-left: -2px;
+    margin-right: 10px;
+}
+.search-icon{
+    height: 25px;
+    margin-top: 4px;
+}
+   
+   .voice-search-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(246, 246, 246);
+
+   }
+   .voice-search-buttton{
+    height: 24px;
+    margin-top: 4px;
+   }
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    flex-shrink: 0;
+
+}
+.upload-icon{
+    height: 24px;
+}
+.youtube-apps-icon{
+    height: 24px;
+}
+.notifications-icon{
+    height: 24px;
+}
+
+.current-user-icon{
+    height: 26px;
+    border-radius: 13px;
+    margin-right: 20px;
+}      
+.video-grid{
+    row-gap: 40px;
+    column-gap: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.search-bar{
+    display: block;
+}
+.video-face{
+    width: 100%;
+
+
+}
+.profile-picture{
+width: 40px;
+border-radius: 50px;
+
+}
+.video-info-grid{
+margin-top: 10px;
+display: grid;
+grid-template-columns: 50px 1fr;
+}
+.thumbnail{
+width:100%;
+}
+.video-title{
+font-weight: 500;
+       }
+  .video-author{
+        margin-top:15px;
+       }
+       .video-author, .video-stats{
+        color :rgb(96, 96, 96);
+       }
+
+        </style>
+    </head>
+    
+    <body>
+        <div class="header">
+            <div class="left-section">
+               <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </div>
+        
+            <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="search">
+        <button class="search-button">
+            <img class="search-icon" src="icons/search.svg"></button>
+        <button class="voice-search-button">
+            <img src="icons/voice-search-icon.svg"></button>
+        </div>
+       
+      <div class="right-section">
+        <img  class="upload-icon" src="icons/upload.svg">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <img class="current-user-icon" src="photo_2023-10-30_18-50-18 (2).jpg">
+        </div>
+
+        </div>
+        
+        
+        <div class="video-grid">
+            <div class="video-preview">
+
+                <div class="thumbnail">
+                    <img class="video-face" src="1.jpg">
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="thumbnail-row">
+                        <img class="profile-picture" src="photo_2020-08-21_19-20-28.jpg">
+    
+                    </div>
+                 <div class="video-preview-div">
+                        <p class="video-title">
+                                        
+                       Instead of telling the greatest of your problem to God, tell the greatness of your God to the problem
+                     </p>
+                                         
+                      <P class="video-author">
+                               Gosaye woyo
+                      </P>
+                     <p class="video-stats">
+                              3.4M views . 6 months ago
+                     </p>     
+                
+                </div>
+        
+            </div>
+         </div>
+         <div class="video-preview">
+    
+            <div class="thumbnail">
+                <img class="video-face" src="3.jpg">
+            </div>
+    
+            <div class="video-info-grid">
+                <div class="thumbnail-row">
+                    <img class="profile-picture" src="photo_2023-10-26_09-04-59.jpg">
+    
+                </div>
+             <div class="video-preview-div">
+                    <p class="video-title">
+                                    
+                        Try Not To Laugh Challenge #9
+    
+                 </p>
+                                     
+                  <P class="video-author">
+                    Markiplier
+    
+                  </P>
+                 <p class="video-stats">
+                  19Mviews . 4 years ago 
+                 </p>     
+            
+            </div>
+    
+        </div>
+     </div>
+     
+     <div class="video-preview">
+    
+        <div class="thumbnail">
+            <img class="video-face" src="4.jpg">
+        </div>
+    
+        <div class="video-info-grid">
+            <div class="thumbnail-row">
+                <img class="profile-picture" src="photo_2023-10-30_18-50-18 (2).jpg">
+    
+            </div>
+         <div class="video-preview-div">
+                <p class="video-title">
+                                
+                    Talking Tech and AI with Google CEO Sundar Pichai!
+             </p>
+                                 
+              <P class="video-author">
+                       Marques Brownlee
+              </P>
+             <p class="video-stats">
+                      3.4M views . 6 months ago
+             </p>     
+        
+        </div>
+    
+    </div>
+    </div>
+    <div class="video-preview">
+    
+    <div class="thumbnail">
+        <img class="video-face" src="5.jpg">
+    </div>
+    
+    <div class="video-info-grid">
+        <div class="thumbnail-row">
+            <img class="profile-picture" src="photo_2023-10-30_18-50-18 (2).jpg">
+    
+        </div>
+     <div class="video-preview-div">
+            <p class="video-title">
+                            
+                Try Not To Laugh Challenge #9
+    
+         </p>
+                             
+          <P class="video-author">
+            Markiplier
+    
+          </P>
+         <p class="video-stats">
+          19M views . 4 years ago
+         </p>     
+    
+    </div>
+    
+    </div>
+    </div> 
+    
+    <div class="video-preview">
+    
+        <div class="thumbnail">
+            <img class="video-face" src="thumbnails/thumbnail-5.webp">
+        </div>
+    
+        <div class="video-info-grid">
+            <div class="thumbnail-row">
+                <img class="profile-picture" src="thumbnails/channel-5.jpeg">
+    
+            </div>
+         <div class="video-preview-div">
+                <p class="video-title">
+                                
+                    Talking Tech and AI with Google CEO Sundar Pichai!
+             </p>
+                                 
+              <P class="video-author">
+                       Marques Brownlee
+              </P>
+             <p class="video-stats">
+                      3.4M views . 6 months ago
+             </p>     
+        
+        </div>
+    
+    </div>
+    </div>
+    <div class="video-preview">
+    
+    <div class="thumbnail">
+        <img class="video-face" src="thumbnails/thumbnail-6.webp">
+    </div>
+    
+    <div class="video-info-grid">
+        <div class="thumbnail-row">
+            <img class="profile-picture" src="photo_2023-10-30_18-50-18.jpg">
+    
+        </div>
+     <div class="video-preview-div">
+            <p class="video-title">
+                            
+                Try Not To Laugh Challenge #9
+    
+         </p>
+                             
+          <P class="video-author">
+            Markiplier
+    
+          </P>
+         <p class="video-stats">
+          19M views . 4 years ago
+         </p>     
+    
+    </div>
+    
+    </div>
+    </div> 
+        </div>
+      
+        
+    </body>
+</html>
+ 
+
+

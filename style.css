@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(100.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.qorii{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+
+}
+.logo{
+    color: rgb(255, 114, 0);
+    font-size: 36px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 10px
+  }
+  .menu{
+    width: 400px;
+    height: 75px;
+    float: left;
+  }
+  ul{
+    display: flex;
+    align-items: center;
+    float: left;
+    justify-content: space-between;
+
+  }

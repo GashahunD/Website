@@ -1,0 +1,65 @@
+.header{
+    background-image: -o-repeating-linear-gradient();
+}
+body {
+background-image: linear-gradient();
+  }
+div{
+    margin-right: 15px;
+}
+.div1{
+    display:inline-block;
+    width: 200px;
+    border: solid;
+    border-width: 2px;
+    height: 260px;
+    border-color: rgb(220, 220, 249);
+  
+    
+}
+.profile-picture{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    
+    
+}
+.profile-name{
+    margin-left: 5px;
+    font-weight: bolder;
+    margin-top: 7px;
+    margin-bottom: 0;
+    display: inline-block;
+
+}
+.common{
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: 0;   
+}
+.Friend{
+    
+    margin-left: 5px;
+    margin-top: 8px;
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+    width: 100px;
+    border: none;
+    height: 40px;
+    
+    cursor: pointer;
+}
+.Friend:hover{
+    opacity: 0.85s;
+    background-color: rgb(61, 61, 235);
+}
+.Friend:active{
+    opacity: 0.3;
+}
+.profile {
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;}

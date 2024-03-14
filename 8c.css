@@ -1,0 +1,42 @@
+.google{ 
+    font-size:50px;
+    width: 500px;
+    padding-right: 400px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.search-bar{
+    border: none;
+    border-radius: 30px;
+    width: 400px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 15px;
+    box-shadow:3px 4px 20px #d2d0d0;
+   
+
+}
+img{
+    display: block;
+  width: 200px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+}
+.search{
+    margin-top: 20px;
+    width: 150px;
+   
+
+}
+.Feeling{
+    margin-top: 50px;
+    width: 150px;
+
+}
+.div{
+    display: inline-block;
+    vertical-align: bottom;
+}
